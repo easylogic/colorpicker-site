@@ -1,0 +1,31 @@
+{
+  "name": "codemirror-colorpicker-site",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "dev": "vuepress dev src",
+    "build": "vuepress build src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/easylogic/codemirror-colorpicker.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@easylogic/colorpicker": "^1.9.65",
+    "axios": "^0.18.1",
+    "codemirror-colorpicker": "github:easylogic/codemirror-colorpicker",
+    "vue-codemirror-lite": "^1.0.4",
+    "vuepress-plugin-google-tag-manager": "0.0.3"
+  },
+  "devDependencies": {
+    "autoprefixer": "^9.7.1",
+    "babel-plugin-external-helpers": "^6.22.0",
+    "babel-preset-env": "^1.7.0"
+  }
+}

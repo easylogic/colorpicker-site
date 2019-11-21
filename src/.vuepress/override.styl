@@ -1,0 +1,97 @@
+$accentColor = #1770d9
+$textColor = #2c3e50
+$borderColor = #eaecef
+$codeBgColor = #282c34
+ 
+
+.site-name {
+    &:before {
+        content: "";
+        display:inline-block;
+        width: 24px;
+        height: 24px;
+        vertical-align: middle;
+        background-image: url('/images/logo.svg');
+        background-size: contain;
+        background-repeat: no-repeat;    
+    }
+
+    @media screen and (max-width: 600px) {
+        font-size: 1em !important;
+         &:before {
+            display:none;
+        }   
+    }
+}
+
+.page-edit, .page-nav {
+    max-width: 900px;    
+}
+
+.content:not(.custom) {
+    max-width: 900px;
+} 
+
+.content pre {
+    padding: 1.25em 0em;
+    margin: 0px;    
+}
+
+.navbar {
+    z-index: 2000;
+    position: fixed;
+}
+
+.rect {
+    vertical-align: absmiddle;
+    line-height: 1;
+    text-transform: uppercase;
+    &:before {
+        margin-top: -3px;
+        margin-left: 1px;
+        content: "";
+        display: inline-block;
+        width: 14px;
+        height: 14px;
+        border: 1px solid #e0e0e0;
+        vertical-align: middle;        
+    }
+
+
+    &.red { 
+        color: red; 
+        &:before {
+            background-color: red; 
+        }
+    }    
+
+    &.yellow { 
+        &:before {
+            background-color: yellow; 
+        }
+    }    
+
+    &.orange { 
+        &:before {
+            background-color: orange; 
+        }
+    }        
+
+    &.green { 
+        &:before {
+            background-color: green; 
+        }
+    }    
+
+    &.blue { 
+        &:before {
+            background-color: blue; 
+        }
+    }                
+
+    &.black { 
+        &:before {
+            background-color: black; 
+        }
+    }                    
+}
