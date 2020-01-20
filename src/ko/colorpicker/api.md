@@ -198,6 +198,8 @@ var colorpicker = create({
 
 `RingColorPicker`
 
+`VSCodePicker`
+
 :::
 
 <ClientOnly>

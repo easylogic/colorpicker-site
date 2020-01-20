@@ -98,7 +98,7 @@ export default {
     .tools {
         display: inline-block;
         padding: 50px 20px;
-        vertical-align: ;
+        vertical-align: middle;
         font-size: 12px;
         box-sizing:border-box;
         vertical-align: top;
