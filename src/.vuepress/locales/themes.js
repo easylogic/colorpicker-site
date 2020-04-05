@@ -4,7 +4,7 @@ module.exports = {
         label: 'English',
         nav: [
             {
-                text: 'CSS Style Editor',
+                text: 'Web Design Tool',
                 link: 'https://editor.easylogic.studio'
             },
             {
@@ -53,7 +53,7 @@ module.exports = {
         selectText: '언어 선택',
         label: '한국어', 
         nav: [{
-                text: 'CSS Style Editor',
+                text: 'Web Design Tool',
                 link: 'https://editor.easylogic.studio'
             },{
             text: '이야기',
