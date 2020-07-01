@@ -32,7 +32,25 @@ module.exports = {
   j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
   })(window,document,'script','dataLayer','GTM-TBTZTTR');`
-    ]
+    ],
+    [
+      'script',
+      {
+        async: true,
+        src: "https://www.googletagmanager.com/gtag/js?id=UA-139740394-1"
+      }
+    ],
+    [
+      'script',
+      {},
+      `
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-139740394-1');
+      `
+    ],    
   ],
   postcss: {
     plugins: [require("autoprefixer")]
