@@ -5,7 +5,7 @@
 </template>
 
 <script>
-import { Color, create as ColorPickerCreate } from 'codemirror-colorpicker'
+import ColorPickerUI from '@easylogic/colorpicker'
 import 'codemirror-colorpicker/dist/codemirror-colorpicker.css'
 
 export default {
@@ -13,8 +13,7 @@ export default {
         'type'
     ],
     mounted () {
-
-        ColorPickerCreate({
+        ColorPickerUI.create({
             position: 'inline',
             type: this.type,
             color: 'blue',

@@ -2,7 +2,7 @@
 home: true
 # layout: false
 actionText: Get Started →
-actionLink: /1/
+actionLink: /colorpicker/
 features:
  - title: Color Picker & Gradient
    details: You can simply use color picker in Codemirror. Or you can use it alone.
@@ -35,19 +35,18 @@ footer: Copyright © 2018 CodeMirror ColorPicker - easylogic
 
 
 <ClientOnly>
-<colorpicker />
+<colorpicker type="sketch" />
 </ClientOnly>
 
 ```js
 import '@easylogic/colorpicker/dist/colorpicker.css';
 import ColorPickerUI from '@easylogic/colorpicker'
 // Standalone 
-var ColorPicker = EasyLogicColorPicker.ColorPicker;
 var colorpicker = ColorPickerUI.create({
     color: 'blue', // init color code 
     position: 'inline',   // default show 
     container : '#color-container'
-    type : 'palette', // or 'sketch',  default type is 'chromedevtool'
+    type : 'sketch', // or 'sketch',  default type is 'chromedevtool'
     onHide: () => {
       console.log('hide');
     },

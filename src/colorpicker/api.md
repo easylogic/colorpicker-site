@@ -62,7 +62,7 @@ var cm = CodeMirror.fromTextArea(document.getElementById("sample_text_area"), {
 
 ### es6 style 
 ```js
-import {ColorPicker} from 'codemirror-colorpicker' 
+import {ColorPicker} from '@easylogic/colorpicker' 
 
 var colorpicker = new ColorPicker({
     color: 'blue', // init color code 

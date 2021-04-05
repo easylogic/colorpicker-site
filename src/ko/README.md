@@ -2,7 +2,7 @@
 home: true
 # layout: false
 actionText: 시작하기 →
-actionLink: /ko/1/
+actionLink: /ko/colorpicker/
 features:
  - title: Color Picker 와 Gradient
    details: CodeMirro 또는 단독으로 간단하게 컬러피커를 사용 할 수 있습니다. 
