@@ -17,7 +17,7 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "@easylogic/colorpicker": "^1.9.67",
+    "@easylogic/colorpicker": "^1.10.3",
     "axios": "^0.18.1",
     "codemirror-colorpicker": "github:easylogic/codemirror-colorpicker",
     "vue-codemirror-lite": "^1.0.4",

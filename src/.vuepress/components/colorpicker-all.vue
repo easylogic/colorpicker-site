@@ -53,8 +53,8 @@
 </template>
 
 <script>
-import { Color, create as ColorPickerCreate } from 'codemirror-colorpicker'
-import 'codemirror-colorpicker/dist/codemirror-colorpicker.css'
+import { Color, create as ColorPickerCreate } from '@easylogic/colorpicker'
+import '@easylogic/colorpicker/dist/colorpicker.css'
 
 export default {
     mounted () {
