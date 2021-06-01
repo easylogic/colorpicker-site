@@ -8,6 +8,10 @@ module.exports = {
                 link: 'https://editor.easylogic.studio'
             },
             {
+                text: 'Gradient Editor',
+                link: 'https://gradient.easylogic.studio'
+            },            
+            {
             text: 'Story',
             items: [{
                     text: '1. ColorPicker',
@@ -52,12 +56,18 @@ module.exports = {
     '/ko/': {
         selectText: '언어 선택',
         label: '한국어', 
-        nav: [{
+        nav: [
+            {
                 text: 'Web Design Tool',
                 link: 'https://editor.easylogic.studio'
-            },{
-            text: '이야기',
-            items: [{
+            },
+            {
+                text: 'Gradient Editor',
+                link: 'https://gradient.easylogic.studio'
+            },            
+            {
+                text: '이야기',
+                items: [{
                     text: '1. ColorPicker',
                     link: '/ko/colorpicker/'
                 },{
